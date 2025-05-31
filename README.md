@@ -1,6 +1,5 @@
 
-
-# MY-PY-ENV
+# MY-PY-ENV-2
 
 A long time ago in a galaxy far, far away there were
 statistical/programming packages where individual packages did not need
@@ -12,34 +11,25 @@ each key package.
 This “manual” is organized by topic. If you feel something should be
 added, please feel free to submit a pull request.
 
-## Add
-
-- fancyimpute
-- pytorch
-
-# Remove
-
--d3block -timeit -profile -cprofile -pstats
-
 ## Index
 
-1.  \*[Programming Modules](#programming-modules)
-2.  \*[Data compression](#data-compression)
-3.  \*\*[Performance Management and
+1.  [Programming Modules](#programming-modules)
+2.  [Data compression](#data-compression)
+3.  [Performance Management and
     Profiling](#performance-management-and-profiling)
-4.  \*\*[Quality Control](#quality-control)
-5.  \*[System and Environment](#system-and-environment)
-6.  \*[Data Input and Output](#data-input-and-output)
-7.  \*[Data Munging and Validation](#data-munging-and-validation)
-8.  \*[Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-9.  \*[Math, Statistics, ML, and Data
+4.  [Quality Control](#quality-control)
+5.  [System and Environment](#system-and-environment)
+6.  [Data Input and Output](#data-input-and-output)
+7.  [Data Munging and Validation](#data-munging-and-validation)
+8.  [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+9.  [Math, Statistics, ML, and Data
     Analytics](#math-statistics-ml-and-data-analytics)
-10. \*[Time Series](#time-series)
-11. \*[General Visualization and
+10. [Time Series](#time-series)
+11. [General Visualization and
     Reporting](#general-visualization-and-reporting)
-12. \*[Graph, Diagrams and Technical Drawing Analysis and
+12. [Graph, Diagrams and Technical Drawing Analysis and
     Visualization](#graph-diagrams-and-technical-drawing-analysis-and-visualization)
-13. \*[Image and Video](#image-and-video)
+13. [Image and Video](#image-and-video)
 
 ## Environment Documentation
 
@@ -140,6 +130,7 @@ added, please feel free to submit a pull request.
 | [snowflake-snowpark-python](https://docs.snowflake.com/en/developer-guide/snowpark/python/index) | data munging in Snowflake                                                                                                               |
 | [pandera](https://pandera.readthedocs.io/en/latest/)                                             | data validation                                                                                                                         |
 | [miceforest](https://miceforest.readthedocs.io/en/latest/)                                       | Impute missing values                                                                                                                   |
+| [fancyimpute](https://github.com/iskandr/fancyimpute)                                            | A variety of matrix completion and imputation algorithms                                                                                |
 
 ### Exploratory Data Analysis (EDA)
 
@@ -190,7 +181,8 @@ added, please feel free to submit a pull request.
 | [optuna](https://optuna.readthedocs.io/en/stable/index.html)                        |                                                                                                          | An automatic hyperparameter optimization framework                                                                                                                                                                                                                                                                                                                     |
 | [keras](https://keras.io/)                                                          |                                                                                                          | Deep learning for humans                                                                                                                                                                                                                                                                                                                                               |
 | [tensorflow](https://www.tensorflow.org/)                                           |                                                                                                          | An end-to-end platform for machine learning                                                                                                                                                                                                                                                                                                                            |
-| [scikeras](https://adriangb.com/scikeras/stable/)                                   |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                        |
+| [scikeras](https://adriangb.com/scikeras/stable/)                                   |                                                                                                          | Use Keras/TensorFlow with sklearn                                                                                                                                                                                                                                                                                                                                      |
+| [pytorch](https://pytorch.org/)                                                     |                                                                                                          | Machine learning framework                                                                                                                                                                                                                                                                                                                                             |
 | [pyclustering](https://pyclustering.github.io/docs/0.10.1/html/index.html)          |                                                                                                          | An open source data mining library written in Python and C++ that provides a wide range of clustering algorithms and methods                                                                                                                                                                                                                                           |
 | [nltk](https://www.nltk.org/)                                                       |                                                                                                          | A leading platform for building Python programs to work with human language data                                                                                                                                                                                                                                                                                       |
 | [pyod](https://pyod.readthedocs.io/en/latest/index.html)                            |                                                                                                          | A comprehensive but easy-to-use Python library for detecting anomalies in multivariate data.                                                                                                                                                                                                                                                                           |
@@ -211,6 +203,9 @@ added, please feel free to submit a pull request.
 | [neuralforecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/introduction.html) |           | A collection of neural forecasting methods focused on usability and robustness. Part of the [nixtlaverse](https://nixtlaverse.nixtla.io/).                                   |
 | [hierarchicalforecast](https://nixtlaverse.nixtla.io/hierarchicalforecast/index.html)                 |           | A collection of reconciliation methods for heirarchical forecasting problems. Part of the [nixtlaverse](https://nixtlaverse.nixtla.io/).                                     |
 | [utilsforecast](https://nixtlaverse.nixtla.io/utilsforecast/index.html)                               |           | A collection of forecasting utilities. Part of the [nixtlaverse](https://nixtlaverse.nixtla.io/).                                                                            |
+| [prophet](https://facebook.github.io/prophet/)                                                        |           | A fast forecasting procedure that provides completely automated forecasts that can be tuned by hand                                                                          |
+| [neuralprophet](https://neuralprophet.com/contents.html)                                              |           | Fusing traditional time series forecasting algorithms using standard deep learning methods                                                                                   |
+| [tsfeatures](https://github.com/Nixtla/tsfeatures?tab=readme-ov-file)                                 |           | Calculates various features from time series data                                                                                                                            |
 
 ### General Visualization and Reporting
 
