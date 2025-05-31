@@ -11,9 +11,10 @@ This "manual" is organized by topic. If you feel something should be added, plea
 ## Add
 - fancyimpute
 - pytorch
+- prophet
+- neuralprophetquit
 
 # Remove
--d3block
 -timeit
 -profile
 -cprofile

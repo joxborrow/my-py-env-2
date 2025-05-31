@@ -10,6 +10,7 @@ dependencies = [
     "click>=8.2.1",
     "colorama>=0.4.6",
     "colorcet>=3.1.0",
+    "d3blocks>=1.4.11",
     "datashader>=0.18.1",
     "deltalake>=1.0.1",
     "diagrams>=0.24.4",
