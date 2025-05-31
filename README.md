@@ -12,25 +12,34 @@ each key package.
 This “manual” is organized by topic. If you feel something should be
 added, please feel free to submit a pull request.
 
+## Add
+
+- fancyimpute
+- pytorch
+
+# Remove
+
+-d3block -timeit -profile -cprofile -pstats
+
 ## Index
 
-1.  [Programming Modules](#programming-modules)
-2.  [Data compression](#data-compression)
-3.  [Performance Management and
+1.  \*[Programming Modules](#programming-modules)
+2.  \*[Data compression](#data-compression)
+3.  \*\*[Performance Management and
     Profiling](#performance-management-and-profiling)
-4.  [Quality Control](#quality-control)
-5.  [System and Environment](#system-and-environment)
-6.  [Data Input and Output](#data-input-and-output)
-7.  [Data Munging and Validation](#data-munging-and-validation)
-8.  [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-9.  [Math, Statistics, ML, and Data
+4.  \*\*[Quality Control](#quality-control)
+5.  \*[System and Environment](#system-and-environment)
+6.  \*[Data Input and Output](#data-input-and-output)
+7.  \*[Data Munging and Validation](#data-munging-and-validation)
+8.  \*[Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+9.  \*[Math, Statistics, ML, and Data
     Analytics](#math-statistics-ml-and-data-analytics)
-10. [Time Series](#time-series)
-11. [General Visualization and
+10. \*[Time Series](#time-series)
+11. \*[General Visualization and
     Reporting](#general-visualization-and-reporting)
-12. [Graph, Diagrams and Technical Drawing Analysis and
+12. \*[Graph, Diagrams and Technical Drawing Analysis and
     Visualization](#graph-diagrams-and-technical-drawing-analysis-and-visualization)
-13. [Image and Video](#image-and-video)
+13. \*[Image and Video](#image-and-video)
 
 ## Environment Documentation
 
