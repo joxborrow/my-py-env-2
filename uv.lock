@@ -2000,6 +2000,22 @@ wheels = [
 ]
 
 [[package]]
+name = "hiclass"
+version = "5.0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "networkx", version = "3.4.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "networkx", version = "3.5", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "numpy" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/df/17/c424e7f393c2b05bda7e1e4936816181daf0dd6ffa9691ba2a19eab6989b/hiclass-5.0.4.tar.gz", hash = "sha256:ef12425eafe41c6498e6c55a891157b44c2ae575dc30a001025fa4fac96bc2d3", size = 70788 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8a/48/243d5107c19bfcd798236d2a53db1ae228945138251373eacc534b986bb1/hiclass-5.0.4-py3-none-any.whl", hash = "sha256:58d4928912f14d1974ead3a4554ab711add953f307778a252c9093e86b02aa5c", size = 50591 },
+]
+
+[[package]]
 name = "hierarchicalforecast"
 version = "1.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -3474,6 +3490,7 @@ dependencies = [
     { name = "folium" },
     { name = "graphviz" },
     { name = "great-tables" },
+    { name = "hiclass" },
     { name = "hierarchicalforecast" },
     { name = "hiveplotlib" },
     { name = "holidays" },
@@ -3563,6 +3580,7 @@ requires-dist = [
     { name = "folium", specifier = ">=0.19.6" },
     { name = "graphviz", specifier = ">=0.20.3" },
     { name = "great-tables", specifier = ">=0.17.0" },
+    { name = "hiclass", specifier = ">=5.0.4" },
     { name = "hierarchicalforecast", specifier = ">=1.2.1" },
     { name = "hiveplotlib", specifier = ">=0.25.1" },
     { name = "holidays", specifier = ">=0.73" },
